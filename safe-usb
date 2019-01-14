@@ -1,0 +1,4 @@
+#!/bin/bash
+encfs /media/guillaume/USBPRO/Coffre-Fort/ /home/guillaume/safe-on-usb/
+df -h | grep -i on-usb
+
