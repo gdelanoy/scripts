@@ -1,0 +1,2 @@
+#!/bin/bash
+ssh formation2 "echo 'ssomdettpt' | sudo -S su -c `echo $1`"

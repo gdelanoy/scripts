@@ -1,0 +1,9 @@
+#!/bin/bash
+ssh formation1 'sudo poweroff'
+ssh formation2 'sudo poweroff'
+ssh formation3 'sudo poweroff'
+ssh formation4 'sudo poweroff'
+ssh formation5 'sudo poweroff'
+ssh formation6 'sudo poweroff'
+ssh formation7 'sudo poweroff'
+

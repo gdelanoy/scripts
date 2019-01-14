@@ -1,0 +1,8 @@
+#!/bin/bash
+ssh formation1 "echo 'ssomdettpt' | sudo -S su -c `echo $1`"
+ssh formation2 "echo 'ssomdettpt' | sudo -S su -c `echo $1`"
+ssh formation3 "echo 'ssomdettpt' | sudo -S su -c `echo $1`"
+ssh formation4 "echo 'ssomdettpt' | sudo -S su -c `echo $1`"
+ssh formation5 "echo 'ssomdettpt' | sudo -S su -c `echo $1`"
+ssh formation6 "echo 'ssomdettpt' | sudo -S su -c `echo $1`"
+ssh formation7 "echo 'ssomdettpt' | sudo -S su -c `echo $1`"
